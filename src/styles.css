@@ -14,7 +14,8 @@ body {
 	width: 320px;
 	height: 570px;
 	background: #fff9f2;
-	box-shadow: 2px 9px 28px rgba(170, 170, 170, 0.27);
+	/* box-shadow: 2px 9px 28px rgba(170, 170, 170, 0.27); */
+	box-shadow: 10px 10px 0px #d29982;
 	border-radius: 26px;
 }
 .info {
