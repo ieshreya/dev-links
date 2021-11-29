@@ -1,7 +1,22 @@
+body {
+	background: #f3d5c0;
+	/* overflow-y: hidden; */
+}
 .App {
 	font-family: "Inter", sans-serif;
+	display: grid;
+	place-items: center;
 }
-
+.container {
+	margin: 3rem;
+	padding: 2rem;
+	/* background: #FFF9F2; */
+	width: 320px;
+	height: 568px;
+	background: #fff9f2;
+	box-shadow: 2px 9px 28px rgba(170, 170, 170, 0.27);
+	border-radius: 26px;
+}
 .info {
 	display: flex;
 	align-items: center;
@@ -18,6 +33,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	justify-content: space-around;
 }
 
@@ -25,5 +41,13 @@
 	background: #d29982;
 	color: #fff;
 	padding: 16px;
-	width: 50%;
+	width: 70%;
+	font-weight: 500;
+	border-radius: 9px;
+	box-shadow: 0px 3px 4px rgba(154, 154, 154, 0.27);
+	cursor: pointer;
 }
+
+/* 
+Todo: hove animate the links and social icons
+*/

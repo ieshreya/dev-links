@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 export default function App() {
 	return (
 		<div className="App">
-			<Info />
-			<Links />
-			<Footer />
+			<div className="container">
+				<Info />
+				<Links />
+				<Footer />
+			</div>
 		</div>
 	);
 }
