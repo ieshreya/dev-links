@@ -1,6 +1,6 @@
 body {
 	background: #f3d5c0;
-	/* overflow-y: hidden; */
+	/* overflow: hidden; */
 }
 .App {
 	font-family: "Inter", sans-serif;
@@ -9,7 +9,7 @@ body {
 }
 .container {
 	margin: 3rem;
-	padding: 2rem;
+	padding: 2.2rem;
 	/* background: #FFF9F2; */
 	width: 320px;
 	height: 570px;
@@ -52,17 +52,45 @@ body {
 	box-shadow: 0px 3px 4px rgba(154, 154, 154, 0.27);
 	cursor: pointer;
 }
-
+.links h4:hover {
+	/* transform: scale(1.1); */
+	animation: btn 1s ease forwards;
+}
 .footer {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: 48px;
+	/* margin-bottom: 12px; */
 }
 
 .icon {
 	margin: -30px;
+	padding-bottom: 1.4rem;
+	cursor: pointer;
 }
-/* 
-Todo: hove animate the links and social icons
-*/
+.icon:hover {
+	animation: icons 1s ease forwards infinite;
+}
+
+@keyframes btn {
+	from {
+		background-color: #d29982;
+	}
+	50% {
+		background-color: #ffe699;
+		transform: scale(1.1) rotate(-2deg);
+		color: #000;
+	}
+	60% {
+		transform: scale(1.1) rotate(7deg);
+	}
+}
+@keyframes icons {
+	50% {
+		transform: scale(1.1) rotate(-7deg);
+	}
+	60% {
+		transform: scale(1.1) rotate(7deg);
+	}
+}
