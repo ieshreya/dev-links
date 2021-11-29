@@ -1,6 +1,6 @@
 function Links() {
 	return (
-		<div>
+		<div className="links">
 			<h4>Get my free ebook</h4>
 			<h4>Visit my blog</h4>
 			<h4>My Cheatsheets</h4>

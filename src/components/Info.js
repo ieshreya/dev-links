@@ -1,6 +1,6 @@
 function Info() {
 	return (
-		<div>
+		<div className="info">
 			<img src="./profile.png" alt="profile" />
 			<h2>Shreya</h2>
 		</div>
