@@ -1,11 +1,34 @@
 function Links() {
 	return (
 		<div className="links">
-			<h4>Get my free ebook</h4>
-			<h4>Visit my blog</h4>
-			<h4>My Cheatsheets</h4>
-			<h4>Web Dev Threads</h4>
-			<h4>Support Me</h4>
+			<h4>
+				<span role="img" aria-label="page">
+					📑
+				</span>
+				Get my free ebook
+			</h4>
+			<h4>
+				<span role="img" aria-label="write">
+					✍🏼
+				</span>
+				Visit my blog
+			</h4>
+			<h4>
+				<span role="img" aria-label="star">
+					⭐
+				</span>
+				My Cheatsheets
+			</h4>
+			<h4>
+				<span role="img" aria-label="thread"></span>
+				Web Dev Threads
+			</h4>
+			<h4>
+				<span role="img" aria-label="coffee">
+					☕
+				</span>
+				Support Me
+			</h4>
 		</div>
 	);
 }
